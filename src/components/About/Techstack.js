@@ -16,11 +16,8 @@ import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import MUI from "../../Assets/TechIcons/MUI.svg";
-import Postman from "../../Assets/TechIcons/Postman.svg";
-import AWS from "../../Assets/TechIcons/AWS.svg";
-import Figma from "../../Assets/TechIcons/Figma.svg";
-import Excel from "../../Assets/TechIcons/Excel.svg";
-
+import HTML5 from "../../Assets/TechIcons/HTML5.svg";
+import CSS3 from "../../Assets/TechIcons/CSS3.svg";
 
 function Techstack() {
   return (
@@ -31,28 +28,26 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Javascript} alt="javascript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">JavaScript</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Typescript} alt="typescript" />
-        <div className="tech-icons-text">Javascript</div>
+        <div className="tech-icons-text">TypeScript</div>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={CSS3} alt="css3" />
+        <div className="tech-icons-text">CSS3</div>
+      </Col>
+    
       <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
         <div className="tech-icons-text">Go</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Node} alt="node" />
-        <div className="tech-icons-text">Node.Js</div>
+        <div className="tech-icons-text">Node.js</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={ReactIcon} alt="react" />
-        <div className="tech-icons-text">React.Js</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity fontSize={"24px"} />
-        <div className="tech-icons-text">Solidity</div>
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
         <div className="tech-icons-text">Mongo DB</div>
@@ -71,18 +66,10 @@ function Techstack() {
         <img src={Firebase} alt="firebase" />
         <div className="tech-icons-text">Firebase</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Excel} alt="excel" />
-        <div className="tech-icons-text">Excel</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Figma} alt="figma" />
-        <div className="tech-icons-text">Figma</div>
-      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={SQL} alt="SQL" />
-        <div className="tech-icons-text">Postgresql</div>
+        <div className="tech-icons-text">PostgreSQL</div>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -103,16 +90,10 @@ function Techstack() {
         <div className="tech-icons-text">Material UI</div>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Postman} alt="Postman" />
-        <div className="tech-icons-text">Postman</div>
+<Col xs={4} md={2} className="tech-icons">
+        <img src={HTML5} alt="Postman" className="tech-icon-images" />
+        <div className="tech-icons-text">HTML5</div>
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={AWS} alt="Postman" className="tech-icon-images" />
-        <div className="tech-icons-text">AWS</div>
-      </Col>
-
     </Row>
   );
 }

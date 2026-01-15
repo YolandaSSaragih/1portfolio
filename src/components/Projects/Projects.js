@@ -29,7 +29,10 @@ function Projects() {
               imgPath={ladangqu}
               isBlog={false}
               title="LadangQu"
-              description="LadangQu is an integrated agriculture platform that combines a community discussion forum with a marketplace for trading agricultural products. It enables secure transactions, user reviews, and seamless interaction between farmers and buyers."
+              description="A fullstack web platform designed to support agricultural communities.
+  I developed responsive user interfaces using React, implemented backend services
+  for data management, and integrated a database to handle user and product data.
+  This project focuses on clean UI, efficient data flow, and scalable system design."
               ghLink="https://github.com/JopelSimarmata/Website_Pertanian"
               demoLink="https://jopel.my.id/"
             />
@@ -40,7 +43,10 @@ function Projects() {
               imgPath={rapidminer}
               isBlog={false}
               title="Diabetes Risk Prediction System"
-              description="Developed a data analysis and machine learning project to predict early diabetes risk using patient health data. The project involved descriptive statistical analysis, data visualization, and building a Decision Tree classification model to distinguish diabetic and non-diabetic patients. The dataset was sourced from Kaggle (Pima Indians Diabetes Database)."
+              description="A fullstack data-driven web application for early diabetes risk prediction.
+  I handled data preprocessing and analysis, built a prediction model, and integrated
+  the model into a web interface to display results interactively.
+  The system demonstrates backend logic, data processing, and frontend visualization."
               
               demoLink=""
             />

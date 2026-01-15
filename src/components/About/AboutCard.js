@@ -8,40 +8,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Yolanda Septania Saragih</span>{" "}
-            from <span className="purple">Sumatra Utara, Indonesia</span>.
-            <br />
-            I’m an <span className="purple">Information Systems student</span>{" "}
-            with a strong interest in{" "}
-            <span className="purple">Data Analysis</span> at{" "}
-            <span className="purple">Frontend Development</span>.
-            <br />I have experience as a{" "}
-            <span className="purple">System Analyst</span> and{" "}
-            <span className="purple">UI/UX Designer</span>, where I analyze
-            business requirements, design system flows, and translate ideas
-            into functional and user-friendly interfaces.
+            Hi! I’m <span className="purple">Yolanda Septania Saragih</span>, an
+            Information Systems student with a strong interest in
+            <span className="purple"> building and developing websites</span>.
+            I am passionate about creating functional web applications by
+            combining clean frontend interfaces with efficient backend logic.
             <br />
             <br />
-            Outside of academics and projects, I enjoy activities that help me
-            stay curious and creative:
+            I enjoy working with web technologies and have experience using
+            <span className="purple">
+              {" "}
+              HTML, CSS, JavaScript, React, and basic backend development{" "}
+            </span>
+            to build responsive and user-friendly websites.
+            <br />
+            <br />
+            I am continuously learning to improve my skills in fullstack web
+            development and enjoy collaborating in team environments to deliver
+            meaningful digital solutions.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Exploring data and finding insights 📊
+              <ImPointRight /> Building Web Applications
             </li>
             <li className="about-activity">
-              <ImPointRight /> Designing UI/UX interfaces 🎨
+              <ImPointRight /> Frontend & Backend Development
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Learning New Web Technologies
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Turning data into insights and ideas into impactful digital solutions."
+            “Learning by building, growing by creating.”
           </p>
-          <footer className="blockquote-footer">Yolanda Saragih</footer>
+          <footer className="blockquote-footer">Yolanda</footer>
         </blockquote>
       </Card.Body>
     </Card>

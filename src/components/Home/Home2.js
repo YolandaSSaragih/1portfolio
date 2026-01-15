@@ -13,38 +13,40 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m an Information Systems student with a strong interest in data analysis
-and frontend development. I enjoy transforming data and system requirements
-into meaningful insights and intuitive digital solutions.
+              I am an Information Systems student with a strong interest in
+              <b className="purple"> building and developing websites </b>
+              as a Fullstack Developer. I enjoy turning ideas and system
+              requirements into functional web applications.
 
               <br />
               <br />
-              I’m proficient in
+              I’m familiar with
               <i>
                 <b className="purple">
                   {" "}
-                  Data analyst, JavaScript, UI/UX design, and Java{" "}
+                  HTML, CSS, JavaScript, React, and basic backend development{" "}
                 </b>
               </i>
-              — and I enjoy working with data-driven systems and user-focused web applications.
+              to create responsive and user-friendly websites.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  data-driven web applications, system workflows, and analytical solutions{" "}
+                  web applications, frontend interfaces, and backend integration{" "}
                 </b>
               </i>
-              that support effective decision-making and provide clear user experiences.
+              that work seamlessly and efficiently.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> data analysis tools, JavaScript </b> and modern tools such as{" "}
+              Whenever possible, I enjoy building projects with
+              <b className="purple"> Laravel, JavaScript </b> and modern framework such as{" "}
               <i>
-                <b className="purple">SQL and React.js</b>
+                <b className="purple">React.js</b>
               </i>
-              to explore data and generate meaningful insights and to create data-driven and user-friendly web applications.
+              , while continuously learning backend technologies to build functional and
+user-friendly web applications.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
